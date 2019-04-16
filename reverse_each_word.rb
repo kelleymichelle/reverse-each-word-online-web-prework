@@ -11,7 +11,6 @@ def reverse_each_word(sent)
   
   arr.collect do |word| 
     word.reverse
-      return arr.join(" ")
 
-  end
+  end.join(" ")
 end  
